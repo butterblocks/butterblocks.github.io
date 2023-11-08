@@ -1,0 +1,63 @@
+ul.menu {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    background: orange;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 100%;
+    }
+li.menu {
+    float: left;
+    }
+a.menu {
+    text-decoration:none;
+    display:block;
+    padding:12px;
+    background: pink;
+    color: purple;
+    }
+a.menu:hover {
+    background: orange;
+    }
+.banner {
+    background-image: url('images/Skrat.png');
+    width: 100%;
+    height: 160px;
+}
+.counter {
+    font-size: 80px;
+    color: green;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.rfont {
+    font-family: 'Courier New', Courier, monospace;
+}
+#background {   
+    background-color: #283618;
+}
+#container {
+    width:85%;
+    height:100%;
+    margin:auto;
+}
+#block1 {
+    background-color: #819050;
+    width:100%;
+    height:200px;
+    float: right;
+}
+#block2 {
+    background-color: #fefae0;
+    width:100%;
+    height:65px;
+    float: right;
+    color: red;
+}
+#block3 {
+    background-color: #f1b978;
+    width:100%;
+    height:1260px;
+    float:none;
+}
