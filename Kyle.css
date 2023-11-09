@@ -35,7 +35,7 @@ a.menu:hover {
     font-family: 'Courier New', Courier, monospace;
 }
 #background {   
-    background-color: #283618;
+    background-color: rgb(63, 11, 63);
 }
 #container {
     width:85%;
@@ -43,20 +43,19 @@ a.menu:hover {
     margin:auto;
 }
 #block1 {
-    background-color: #819050;
+    background-color: rgb(174, 174, 174);
     width:100%;
     height:200px;
     float: right;
 }
 #block2 {
-    background-color: #fefae0;
+    background-color: #e8e7df;
     width:100%;
     height:65px;
     float: right;
-    color: red;
 }
 #block3 {
-    background-color: #f1b978;
+    background-color: rgb(199, 62, 199);
     width:100%;
     height:1260px;
     float:none;
