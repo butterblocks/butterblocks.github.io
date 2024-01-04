@@ -1,6 +1,6 @@
 
 // Set the date we're counting down to
-var countDownDate = new Date("December 1, 2023 00:00:00").getTime();
+var countDownDate = new Date("January 1, 2024 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -24,6 +24,6 @@ document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
 // If the count down is finished, write some text
 if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "NNN is over!!!! Congrats to those who have survived!";
+    document.getElementById("countdown").innerHTML = "Happy New Year!";
 }
 }, 1000);
