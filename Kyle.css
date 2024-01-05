@@ -9,16 +9,17 @@ ul.menu {
     }
 li.menu {
     float: left;
-    width: 20%;
+    width: 25%;
     }
 a.menu {
     text-decoration:none;
     display:block;
-    padding: 0;
+    padding: 36;
     background: pink;
     color: purple;
+    font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
-    height: 100%;
+    height: 28;
     }
 a.menu:hover {
     background: rgb(170, 108, 170);
